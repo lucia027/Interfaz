@@ -6,4 +6,6 @@ module org.example.interfaz {
 
     opens org.example.interfaz to javafx.fxml;
     exports org.example.interfaz;
+    opens org.example.interfaz.controllers to javafx.fxml;
+    exports org.example.interfaz.controllers;
 }
